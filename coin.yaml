@@ -1,4 +1,4 @@
-name: llava
+name: coin
 channels:
   - defaults
 dependencies:
@@ -185,4 +185,4 @@ dependencies:
       - wavedrom==2.0.3.post3
       - websockets==12.0
       - yarl==1.9.4
-prefix: /home/qjy/anaconda3/envs/llava
+prefix: /home/qjy/anaconda3/envs/coin
