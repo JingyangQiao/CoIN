@@ -113,16 +113,16 @@ then, organize the instructions as follows:
 ├── checkpoints
 |   └── openai
 │   	└── clip-vit-large-patch14-336
-|	└── Vicuna
-|		└── vicuna-7b-v1.5
-|		└── vicuna-13b-v1.5
-|	└── Instruction
-|		└── Only_Pretrain_1.5_7b
-|			└── llava-vicuna-2-7b-chat-pretrain
-|				└── mm_projector.bin
-|		└── Only_Pretrain_1.5_13b
-|			└── llava-vicuna-2-13b-chat-pretrain
-|				└── mm_projector.bin
+|   └── Vicuna
+|       └── vicuna-7b-v1.5
+|       └── vicuna-13b-v1.5
+|   └── Instruction
+|       └── Only_Pretrain_1.5_7b
+|           └── llava-vicuna-2-7b-chat-pretrain
+|               └── mm_projector.bin
+|       └── Only_Pretrain_1.5_13b
+|           └── llava-vicuna-2-13b-chat-pretrain
+|               └── mm_projector.bin
 ```
 
 **Tips: mm_projector.bin usually in the downloaded vicuna-7b-v1.5/vicuna-13b-v1.5 folder.** 
