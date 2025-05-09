@@ -22,12 +22,17 @@ cd CoIN
 ```
 2. Install Package
 ```
-conda env create -f llava.yaml
+conda create -n coin python=3.10 -y
+conda activate coin
+pip install --upgrade pip
+pip install -e .
 ```
 
 3. Conda activate environment
 ```
-conda activate llava
+pip install -e ".[train]"
+pip install flash-attn --no-build-isolation
+pip install numpy==1.26.4
 ```
 
 This repo is based on [CoIN](https://github.com/zackschen/CoIN). 
