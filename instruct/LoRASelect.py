@@ -6,11 +6,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-def ensure_folder_exists(folder_path):
-    if not os.path.exists(folder_path):
-        os.makedirs(folder_path)
-
-
 def extract_vqa_texts_from_json_train(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
