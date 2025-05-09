@@ -10,14 +10,14 @@ Official Pytorch implementation for ICML 2025 paper "**Large Continual Instructi
 
 Continual Instruction Tuning (CIT) is adopted to continually instruct Large Models to follow human intent data by data. It is observed that existing gradient update would heavily destroy the performance on previous datasets during CIT process. Instead, Exponential Moving Average (EMA), owns the ability to trace previous parameters, which can aid in decreasing forgetting. Nonetheless, its stable balance weight fails to deal with the ever-changing datasets, leading to the out-of-balance between plasticity and stability. In this paper, we propose a general continual instruction tuning framework to address the challenge. Starting from the trade-off prerequisite and EMA update, we propose the plasticity and stability ideal condition. Based on Taylor expansion in the loss function, we find the optimal balance weight can be automatically determined by the gradients and learned parameters. Therefore, we propose a stable-plasticity balanced coefficient to avoid knowledge confusion. Based on the semantic similarity of the instructions, we can determine whether to retrain or expand the training parameters and allocate the most suitable parameters for the testing instances. Extensive experiments across multiple continual instruction tuning benchmarks demonstrate that our approach not only enhances anti-forgetting capabilities but also significantly improves overall continual tuning performance.
 
-![LCIA](./LCIA.png)
+![LCIA](LCIA.png)
 
 **Paper is available at** https://arxiv.org/abs/2410.10868.
 
 ## Install Repository
 1. Clone this repository
 ``` 
-git clone https://github.com/JingyangQiao/LCIA.git
+git clone https://github.com/JingyangQiao/CoIN.git
 cd CoIN 
 ```
 2. Install Package
