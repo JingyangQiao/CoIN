@@ -125,8 +125,6 @@ then, organize the instructions as follows:
 |               └── mm_projector.bin
 ```
 
-**Tips: mm_projector.bin usually in the downloaded vicuna-7b-v1.5/vicuna-13b-v1.5 folder.** 
-
 ## Continual Tuning
 
 We provide the scripts of our origin continual train order in `scripts/CoIN/Train_CIA`.
