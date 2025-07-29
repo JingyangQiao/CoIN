@@ -33,7 +33,9 @@ pip install -e .
 pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 pip install numpy==1.26.4
+pip uninstall transformers
 ```
+**Most Importantly:** You need to uninstall the transformers package in order to activate the modified local transformers package in llava/train dictionary. Thus you can really deploy the dema method.
 
 This repo is based on [CoIN](https://github.com/zackschen/CoIN). 
 
