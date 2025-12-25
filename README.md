@@ -99,7 +99,7 @@ After downloading all of them, organize the data as follows:
 │       └── train.json
 │       └── test.json
 |	└── ...
-├── Instruction_10Type
+├── Instructions_10Type
 │   └── ScienceQA
 │       └── train.json
 │       └── test.json
