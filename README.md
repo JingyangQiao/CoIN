@@ -94,12 +94,12 @@ After downloading all of them, organize the data as follows:
 │       └── train.json
 │       └── test.json
 |	└── ...
-├── Instructions_type2(Diverse,The parentheses represent comments)
+├── Instructions_Diverse
 │   └── ScienceQA
 │       └── train.json
 │       └── test.json
 |	└── ...
-├── Instruction_type3(10Type, The parentheses represent comments)
+├── Instruction_10Type
 │   └── ScienceQA
 │       └── train.json
 │       └── test.json
@@ -158,14 +158,10 @@ The evaluation results will in:
 ```
 
 ## Notice
-1. The core data of dynamic EMA update is in ./CoIN/peft/tuners/lora.py.
-2. The core data of instruction grouping is in ./instruct/LoRASelect.py.
-3. Considering that all the core data (LLaVA version) has been published and it is easily transferred to other MLLMs or LLMs, we will postpone the deployment of our method on other models.
-
-## ToDO
-
-1. Update Diverse training and evaluation scripts
-2. Update 10Type training and evaluation scripts
+1. The core data of dynamic EMA update is in `./CoIN/peft/tuners/lora.py`.
+2. The core data of instruction grouping is in `./instruct/LoRASelect.py`.
+3. Diverse training and evaluation scripts are in `./scripts/CoIN/Train_Diverse` and `./scripts/CoIN/Eval_Diverse`.
+4. 10Type training and evaluation scripts are in `./scripts/CoIN/Train_10Type` and `./scripts/CoIN/Eval_10Type`.
 
 ## License
 
